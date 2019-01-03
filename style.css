@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  height: 100vh;
+}
+
+.main-visual {
+  background-color: #000;
+}
+
+.vision {
+  background-color: rgb(54, 54, 54);
+}
+
+.activity {
+  background-color: rgb(104, 104, 104);
+}
+
+.interview {
+  background-color: rgb(143, 143, 143);
+}
+
+.production {
+  background-color: rgb(184, 184, 184);
+}
+
+.schedule {
+  background-color: rgb(184, 184, 184);
+}
+
+/*
+div:nth-child(5) {
+  background-color: rgb(218, 218, 218);
+}
+
+div:nth-child(5) {
+  background-color: ; */
+}
