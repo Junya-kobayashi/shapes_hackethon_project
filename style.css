@@ -32,9 +32,9 @@ div {
   background-image: url(image/main-visual.jpg);
   background-size: cover;
   background-position: ceter;
-  font-family: carlmarx,sans-serif;
-font-weight: 700;
-font-style: normal;
+  font-family: carlmarx, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .story {
@@ -42,13 +42,21 @@ font-style: normal;
   color: white;
 }
 
+.container {
+  display: none;
+}
+
+.container-1 {
+  display: none;
+}
+
 .story h2 {
-    font-size: 100px;
-    padding-top: 30px;
+  font-size: 100px;
+  padding-top: 30px;
   text-align: center;
-    font-family: carlmarx,sans-serif;
-font-weight: 700;
-font-style: normal;
+  font-family: carlmarx, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .activity {
@@ -57,12 +65,35 @@ font-style: normal;
 }
 
 .activity h2 {
-    font-size: 100px;
+  font-size: 100px;
   text-align: center;
   padding-top: 30px;
-    font-family: carlmarx,sans-serif;
-font-weight: 700;
-font-style: normal;
+  font-family: carlmarx, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 300px;
+  margin-top: 100px;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 600px;
+  height: 50vh;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide .imgBx {
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-slide .imgBx img {
+  width: 100%;
 }
 
 .interview {
@@ -71,12 +102,12 @@ font-style: normal;
 }
 
 .interview h2 {
-    font-size: 100px;
+  font-size: 100px;
   text-align: center;
   padding-top: 30px;
-    font-family: carlmarx,sans-serif;
-font-weight: 700;
-font-style: normal;
+  font-family: carlmarx, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .schedule {
@@ -85,12 +116,12 @@ font-style: normal;
 }
 
 .schedule h2 {
-    font-size: 100px;
+  font-size: 100px;
   text-align: center;
   padding-top: 30px;
-    font-family: carlmarx,sans-serif;
-font-weight: 700;
-font-style: normal;
+  font-family: carlmarx, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .production {
@@ -99,12 +130,12 @@ font-style: normal;
 }
 
 .production h2 {
-    font-size: 100px;
+  font-size: 100px;
   text-align: center;
   padding-top: 30px;
-    font-family: carlmarx,sans-serif;
-font-weight: 700;
-font-style: normal;
+  font-family: carlmarx, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .future-vision {
@@ -113,65 +144,49 @@ font-style: normal;
 }
 
 .future-vision h2 {
-    font-size: 100px;
+  font-size: 100px;
   text-align: center;
   padding-top: 30px;
-    font-family: carlmarx,sans-serif;
-font-weight: 700;
-font-style: normal;
+  font-family: carlmarx, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
-/*
-div:nth-child(5) {
-  background-color: rgb(218, 218, 218);
-}
-
-div:nth-child(5) {
-  background-color: ; 
-}*/
 
 ul {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: space-around;
-    justify-content: space-around;
-    list-style-type: none;
-    
-    margin: 80px;
-    margin-top:25px;
-    margin-bottom: 40px;
-}　
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  list-style-type: none;
 
-.message{
-    margin: 0 auto;
-    width: 800px;
-    height: 600px;
-    overflow: hidden;
+  margin: 80px;
+  margin-top: 25px;
+  margin-bottom: 40px;
 }
 
-.box{
-     margin: 0 auto;
-    width: 800px;
-    height: 200px;
-}
-.message img{
-    margin-top: 100px;
-    z-index: 0;
+.message {
+  margin: 0 auto;
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
 }
 
-h1{
-    font-family: carlmarx,sans-serif;
-font-weight: 700;
-font-style: normal;
-    text-align: center;
-    padding: 10px;
+.box {
+  margin: 0 auto;
+  width: 800px;
+  height: 200px;
 }
 
+.message img {
+  margin-top: 100px;
+  z-index: 0;
+}
 
-
-
-
-
-
-
-
+h1 {
+  font-family: carlmarx, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  padding: 10px;
+}
