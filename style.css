@@ -5,6 +5,18 @@ font-weight: 700;
 
 font-style: normal; */
 
+/*
+Calmax bold
+font-family: carlmarx,sans-serif;
+font-weight: 700;
+font-style: normal;
+
+regular
+font-family: carlmarx,sans-serif;
+font-weight: 400;
+font-style: normal;
+*/
+
 
 * {
   margin: 0;
@@ -20,7 +32,7 @@ div {
   background-image: url(image/main-visual.jpg);
   background-size: cover;
   background-position: ceter;
-  font-family: brandon-grotesque, sans-serif;
+  font-family: carlmarx, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -34,9 +46,17 @@ div {
   display: none;
 }
 
+.container-1 {
+  display: none;
+}
+
 .story h2 {
+  font-size: 100px;
+  padding-top: 30px;
   text-align: center;
-  padding-top: 20px;
+  font-family: carlmarx, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .activity {
@@ -45,8 +65,35 @@ div {
 }
 
 .activity h2 {
+  font-size: 100px;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 30px;
+  font-family: carlmarx, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 300px;
+  margin-top: 100px;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 600px;
+  height: 50vh;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide .imgBx {
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-slide .imgBx img {
+  width: 100%;
 }
 
 .interview {
@@ -55,8 +102,12 @@ div {
 }
 
 .interview h2 {
+  font-size: 100px;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 30px;
+  font-family: carlmarx, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .schedule {
@@ -65,8 +116,12 @@ div {
 }
 
 .schedule h2 {
+  font-size: 100px;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 30px;
+  font-family: carlmarx, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .production {
@@ -75,8 +130,12 @@ div {
 }
 
 .production h2 {
+  font-size: 100px;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 30px;
+  font-family: carlmarx, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .future-vision {
@@ -85,15 +144,49 @@ div {
 }
 
 .future-vision h2 {
+  font-size: 100px;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 30px;
+  font-family: carlmarx, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
-/*
-div:nth-child(5) {
-  background-color: rgb(218, 218, 218);
+
+ul {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  list-style-type: none;
+
+  margin: 80px;
+  margin-top: 25px;
+  margin-bottom: 40px;
 }
 
-div:nth-child(5) {
-  background-color: ; */
+.message {
+  margin: 0 auto;
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.box {
+  margin: 0 auto;
+  width: 800px;
+  height: 200px;
+}
+
+.message img {
+  margin-top: 100px;
+  z-index: 0;
+}
+
+h1 {
+  font-family: carlmarx, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  padding: 10px;
 }

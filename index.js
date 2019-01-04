@@ -3,6 +3,23 @@ $(function () {
   //   scrollingSpeed: 200
   // }
 
+  var swiper = new Swiper('.swiper-container', {
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  });
+
   $('.activity').on('inview', function () {
     $('.activity .container').delay(1000).queue(function () {
       $(this).fadeIn().dequeue();
@@ -23,7 +40,7 @@ $(function () {
   });
 
   $('.schedule').on('inview', function () {
-    $('.schedule .container').delay(1000).queue(function () {
+    $('.schedule .container-1').delay(1000).queue(function () {
       $(this).fadeIn().dequeue();
     });
   });
