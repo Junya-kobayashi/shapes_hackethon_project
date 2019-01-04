@@ -32,6 +32,25 @@
     <div class="section schedule">
     </div>
   </main>
+  <script>
+    $.ajaxSetup({
+      xhr: function () { // 使える場合はMicrosoft.XMLHTTP, 使えない場合はXMLHttpRequest
+        try {
+          return new ActiveXObject("Microsoft.XMLHTTP");
+        } catch (e) {
+          return new XMLHttpRequest();
+        }
+      }
+    });
+    var path = "test.csv"; // 外部ファイル
+    $.ajax(path, {
+      complete: function (e) {
+        var data = e.responseText; // 外部ファイルの内容
+        console.log(data);
+      }
+    });
+  </script>
+
   <script src="index.js"></script>
 </body>
 
