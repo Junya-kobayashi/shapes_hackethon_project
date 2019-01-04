@@ -37,8 +37,20 @@ div {
   font-style: normal;
 }
 
+.text{
+    text-align: center;
+    font-size: 20px;
+    width: 800px;
+   padding-top: 100px;
+    margin: 0 auto;
+    line-spacing: 10px;
+    line-height: 40px;
+}
+
 .story {
   background-color: #000;
+    background-image: url(image/back.png);
+    background-size: cover;
   color: white;
 }
 
@@ -48,6 +60,10 @@ div {
 
 .container-1 {
   display: none;
+}
+
+.container-2 {
+    display:none;
 }
 
 .story h2 {
@@ -110,6 +126,36 @@ div {
   font-style: normal;
 }
 
+.interview img{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    
+    object-fit: cover;
+}
+.circle{
+   border-radius: 150px; 
+}
+.pink{
+    border:10px solid #DB2672;
+}
+
+.yellow{
+    border:10px solid #F1E533;
+}
+.green{
+    border:10px solid #2FA26B;
+}
+
+.blue{
+    border:10px solid #2EA0D2;
+}
+
+.interview img:hover{
+    margin: 10px;
+}
+
+
 .schedule {
   background-color: #888;
   color: white;
@@ -137,6 +183,13 @@ div {
   font-weight: 700;
   font-style: normal;
 }
+.production ul{
+    margin-top: 100px;
+}
+
+.production img{
+    border:30px solid #fff;
+}
 
 .future-vision {
   background-color: #fff;
@@ -152,18 +205,46 @@ div {
   font-style: normal;
 }
 
-
-ul {
+ul{
   display: -webkit-flex;
-  display: flex;
-  -webkit-justify-content: space-around;
-  justify-content: space-around;
-  list-style-type: none;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    list-style-type: none;
+    
+    margin: 80px;
+    margin-top:25px;
+    margin-bottom: 40px;
+}　
 
-  margin: 80px;
-  margin-top: 25px;
-  margin-bottom: 40px;
+.message{
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+     z-index: -1;
 }
+
+.box{
+     margin: 0 auto;
+    width: 800px;
+    height: 200px;
+}
+.message img{
+    margin-top: 100px;
+   
+}
+
+
+h1{
+    font-family: carlmarx,sans-serif;
+font-weight: 700;
+font-style: normal;
+    text-align: center;
+    padding: 10px;
+}
+
+
 
 .message {
   margin: 0 auto;

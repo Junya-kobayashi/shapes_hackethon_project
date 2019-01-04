@@ -27,7 +27,7 @@ $(function () {
   });
 
   $('.interview').on('inview', function () {
-    $('.interview .container').delay(1000).queue(function () {
+    $('.interview .container-2').delay(1000).queue(function () {
       $(this).fadeIn().dequeue();
     });
   });
