@@ -91,5 +91,16 @@ div:nth-child(5) {
 }
 
 div:nth-child(5) {
-  background-color: ; */
-}
+  background-color: ; 
+}*/
+
+ul {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 100px;
+}　
+
+
