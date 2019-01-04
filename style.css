@@ -93,6 +93,27 @@ font-style: normal;
 
 .interview img{
     margin: 10px;
+    width: 300px;
+    height: 300px;
+    
+    object-fit: cover;
+}
+.circle{
+   border-radius: 150px; 
+}
+.pink{
+    border:10px solid #DB2672;
+}
+
+.yellow{
+    border:10px solid #F1E533;
+}
+.green{
+    border:10px solid #2FA26B;
+}
+
+.blue{
+    border:10px solid #2EA0D2;
 }
 
 .interview img:hover{
