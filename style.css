@@ -27,14 +27,26 @@ div {
   height: 100vh;
 }
 
+/*
 .main-visual {
-  /* background-color: #000; */
+   background-color: #000; 
   background-image: url(image/main-visual.jpg);
   background-size: cover;
   background-position: ceter;
   font-family: carlmarx,sans-serif;
 font-weight: 700;
 font-style: normal;
+}
+*/
+
+.main-visual  video {
+    background: #000;
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }
 
 .story {
