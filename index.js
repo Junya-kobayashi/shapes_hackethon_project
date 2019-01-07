@@ -21,13 +21,13 @@ $(function () {
   });
 
   $('.activity').on('inview', function () {
-    $('.activity .container').delay(1000).queue(function () {
+    $('.activity .container-1').delay(1000).queue(function () {
       $(this).fadeIn().dequeue();
     });
   });
 
   $('.interview').on('inview', function () {
-    $('.interview .container-2').delay(1000).queue(function () {
+    $('.interview .container-1').delay(1000).queue(function () {
       $(this).fadeIn().dequeue();
     });
   });
@@ -46,7 +46,7 @@ $(function () {
   });
 
   $('.production').on('inview', function () {
-    $('.production .container').delay(1000).queue(function () {
+    $('.production .container-3').delay(1000).queue(function () {
       $(this).fadeIn().dequeue();
     });
   });

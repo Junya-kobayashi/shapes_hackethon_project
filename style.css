@@ -76,6 +76,10 @@ div {
   display: none;
 }
 
+.container-3 {
+  display: none;
+}
+
 .story h2 {
   font-size: 100px;
   padding-top: 30px;
