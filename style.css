@@ -23,7 +23,7 @@ font-style: normal;
   padding: 0;
 }
 
-div {
+.section {
   height: 100vh;
 }
 
@@ -114,7 +114,6 @@ div {
   background-position: center;
   background-size: cover;
   width: 600px;
-  height: 50vh;
 }
 
 .swiper-container .swiper-wrapper .swiper-slide .imgBx {
@@ -185,6 +184,10 @@ div {
   font-family: carlmarx, sans-serif;
   font-weight: 700;
   font-style: normal;
+}
+
+.photogrally {
+  padding-top: 120px;
 }
 
 .production {
