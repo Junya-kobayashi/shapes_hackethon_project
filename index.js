@@ -21,13 +21,13 @@ $(function () {
   });
 
   $('.activity').on('inview', function () {
-    $('.activity .container-1').delay(1000).queue(function () {
+    $('.activity .container').delay(1000).queue(function () {
       $(this).fadeIn().dequeue();
     });
   });
 
   $('.interview').on('inview', function () {
-    $('.interview .container-1').delay(1000).queue(function () {
+    $('.interview .container').delay(1000).queue(function () {
       $(this).fadeIn().dequeue();
     });
   });
@@ -36,17 +36,16 @@ $(function () {
     $('.story .container').delay(1000).queue(function () {
       $(this).fadeIn().dequeue();
     });
-    // $('.story .container').fadeIn();
   });
 
   $('.schedule').on('inview', function () {
-    $('.schedule .container-1').delay(1000).queue(function () {
+    $('.schedule .container').delay(1000).queue(function () {
       $(this).fadeIn().dequeue();
     });
   });
 
   $('.production').on('inview', function () {
-    $('.production .container-3').delay(1000).queue(function () {
+    $('.production .container').delay(1000).queue(function () {
       $(this).fadeIn().dequeue();
     });
   });
